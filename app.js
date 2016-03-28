@@ -5,6 +5,7 @@
 $(document).ready(function(){
   // alert("文档已经加载完毕");
     $("p").click(function(){
+        console.log("开始调用隐藏方法");
        $(this).hide();
     });
 });
